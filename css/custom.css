@@ -1,0 +1,49 @@
+/* General and atomic styling */
+:root {
+  --font-fancy: 'Barrio', cursive;
+  --font-regular: 'Quattrocento Sans', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    font-family: var(--font-regular);
+}
+
+.btn-black {
+  background-color: #C45047;
+  color: #fff;
+}
+
+.btn-black:hover {
+  color: #fff;
+  background-color: #111;
+}
+
+/* Splash */
+.container-fluid.splash {
+  background: url("../assets/bg_red.jpg") no-repeat center center;
+  height: 100%; 
+  background-size: cover;
+}
+
+.splash-text h1 {
+  font-family: var(--font-fancy);
+  font-size: 86px;
+}
+
+.splash-text {
+  color: #fff;
+  border: 0;
+  background:rgba(28, 24, 21, 0.6);
+  margin-top: 8em;
+  height: 400px;
+}
+
+@media screen and (max-width: 736px) {
+  .splash-text h1 {
+    font-size: 5em;
+  }
+  .splash-text {
+    height: 350px;
+  }
+}
