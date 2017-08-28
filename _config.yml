@@ -17,7 +17,7 @@ title: Amygdala Notes
 email: ""
 description: > 
   Website for concert and conversation series in Chicago
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "amygdalanotes.org" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Build settings
