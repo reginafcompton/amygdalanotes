@@ -34,6 +34,23 @@ body, html {
   color: #fff;
 }
 
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+
+.navbar-toggle, .navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #fff;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #B14138;
+}
+
+.navbar-toggle:hover .icon-bar, .navbar-toggle:focus .icon-bar {
+  background-color: black;
+}
 
 /* Splash */
 .container-fluid.splash-bg {
