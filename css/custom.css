@@ -10,7 +10,7 @@ body, html {
 }
 
 .btn-black {
-  background-color: #C45047;
+  background-color: #B14138;
   color: #fff;
 }
 
@@ -19,8 +19,24 @@ body, html {
   background-color: #111;
 }
 
+/* Navbar */
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-default {
+  background-color: #B14138;
+  border: 0;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+
 /* Splash */
-.container-fluid.splash {
+.container-fluid.splash-bg {
   background: url("../assets/bg_red.jpg") no-repeat center center;
   height: 100%; 
   background-size: cover;
@@ -46,4 +62,17 @@ body, html {
   .splash-text {
     height: 350px;
   }
+}
+
+/* About */
+.container-fluid.main-bg {
+  background: url("../assets/bg_red_faded.jpg") no-repeat center center;
+  height: 100%; 
+  background-size: cover;
+}
+
+.main-text {
+  margin-top: 3em;
+  border-radius: 4px;
+  background: #fff;
 }
