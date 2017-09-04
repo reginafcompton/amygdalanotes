@@ -9,6 +9,10 @@ body, html {
     font-family: var(--font-regular);
 }
 
+p {
+  font-size: 2em;
+}
+
 .btn-black {
   background-color: #B14138;
   color: #fff;
@@ -22,6 +26,8 @@ body, html {
 /* Navbar */
 .navbar {
   margin-bottom: 0;
+  font-size: 1.5em;
+  line-height: 3;
 }
 
 .navbar-default {
@@ -30,7 +36,25 @@ body, html {
   border-radius: 0;
 }
 
-.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-brand { 
+  font-family: var(--font-fancy);
+  font-size: 2.2em;
+}
+
+.navbar-brand, .navbar-default .navbar-nav > li > a {
+  line-height: 34px;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: black;
   color: #fff;
 }
 
@@ -50,6 +74,13 @@ body, html {
 
 .navbar-toggle:hover .icon-bar, .navbar-toggle:focus .icon-bar {
   background-color: black;
+}
+
+@media screen and (max-width: 736px) {
+  .navbar-default .navbar-brand {
+    font-size: 1.4em;
+    line-height: 22px;
+  }
 }
 
 /* Splash */
@@ -88,14 +119,26 @@ body, html {
   background-size: cover;
 }
 
-@media screen and (max-width: 736px) {
-  .container-fluid.main-bg {
-    height: 220%;
-  }
-}
-
 .main-text {
   margin-top: 3em;
   border-radius: 4px;
   background: #fff;
+  padding: 6px 22px 6px 22px;
+}
+
+.container-fluid.main-bg {
+    height: 150%;
+  }
+
+@media screen and (max-width: 736px) {
+  .container-fluid.main-bg {
+    height: 250%;
+  }
+  p {
+    font-size: 1.6em;
+  }
+  .main-text h1 {
+    font-size: 2em;
+  }
+
 }
