@@ -132,13 +132,13 @@ p {
 
 @media screen and (max-width: 736px) {
   .container-fluid.main-bg {
-    height: 250%;
+    height: 300%;
   }
   p {
-    font-size: 1.6em;
+    font-size: 1.2em;
   }
   .main-text h1 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
 }
