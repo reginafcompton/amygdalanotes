@@ -11,6 +11,7 @@ body, html {
 
 p {
   font-size: 1.8em;
+  margin: 0 0 14px;
 }
 
 .btn-black {
@@ -25,6 +26,16 @@ p {
 
 .main-text h1, .main-text h2 {
   font-weight: 800;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th {
+  padding: 0px;
+  font-size: 1.8em;
+  border-top: none;
+}
+
+.spacer {
+  height: 18px !important;
 }
 
 /* Navbar */
@@ -119,7 +130,7 @@ p {
 /* About */
 .container-fluid.main-bg {
   background: url("../assets/bg_red_faded.jpg") no-repeat center center fixed;
-  height: 100%; 
+  height: 230%;
   background-size: cover;
 }
 
@@ -130,15 +141,11 @@ p {
   padding: 6px 22px 6px 22px;
 }
 
-.container-fluid.main-bg {
-    height: 200%;
-  }
-
 @media screen and (max-width: 736px) {
   .container-fluid.main-bg {
-    height: 300%;
+    height: 330%;
   }
-  p {
+  p, .table>tbody>tr>td, .table>tbody>tr>th {
     font-size: 1.2em;
   }
   .main-text h1, .main-text h2 {
