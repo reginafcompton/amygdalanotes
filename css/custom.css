@@ -143,7 +143,7 @@ p {
 
 @media screen and (max-width: 736px) {
   .container-fluid.main-bg {
-    height: 450%;
+    height: 800%;
   }
   p, .table>tbody>tr>td, .table>tbody>tr>th {
     font-size: 1.2em;
