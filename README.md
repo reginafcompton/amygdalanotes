@@ -1,6 +1,6 @@
 # Amygdala Notes
 
-[Amygdala Notes](amygdalanotes.org) is a concert-and-conversation series in Chicago. It has three goals: (1) to confront established approaches to mental health care, particularly drug-based therapies, (2) to acknowledge intersections among music, emotion, and the mind, and (3) to encourage public interest in rethinking medical paradigms by using music as an access point. Each event entails a musical performance and a conversation with an expert or activist.
+[Amygdala Notes](http://amygdalanotes.org/) is a concert-and-conversation series in Chicago. It has three goals: (1) to confront established approaches to mental health care, particularly drug-based therapies, (2) to acknowledge intersections among music, emotion, and the mind, and (3) to encourage public interest in rethinking medical paradigms by using music as an access point. Each event entails a musical performance and a conversation with an expert or activist.
 
 This repo provides the code and content for the Amygdala Notes website. It's open source! And happily, the code can be a useful blueprint for building other such simple event pages. 
 
