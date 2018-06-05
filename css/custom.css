@@ -2,6 +2,7 @@
 :root {
   --font-fancy: 'Barrio', cursive;
   --font-regular: 'Quattrocento Sans', sans-serif;
+  --color-red: #B14138;
 }
 
 body, html {
@@ -15,7 +16,7 @@ p {
 }
 
 .btn-black {
-  background-color: #B14138;
+  background-color: var(--color-red);
   color: #fff;
 }
 
@@ -38,6 +39,22 @@ p {
   height: 18px !important;
 }
 
+.btn-outline {
+  margin-top: 7.5px;
+  background-color: #fff;
+  border: 2px solid var(--color-red);
+  border-radius: 0;
+  color: var(--color-red);
+  font-weight: bold;
+}
+
+.btn-outline:hover, .btn-outline:focus {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
 /* Navbar */
 .navbar {
   margin-bottom: 0;
@@ -46,7 +63,7 @@ p {
 }
 
 .navbar-default {
-  background-color: #B14138;
+  background-color: var(--color-red);
   border: 0;
   border-radius: 0;
 }
@@ -84,7 +101,7 @@ p {
 
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #B14138;
+  background-color: var(--color-red);
 }
 
 .navbar-toggle:hover .icon-bar, .navbar-toggle:focus .icon-bar {
